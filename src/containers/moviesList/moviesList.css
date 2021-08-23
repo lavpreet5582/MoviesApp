@@ -1,0 +1,35 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.movies-table-container {
+    width: calc(100vw - 200px);
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background: linear-gradient(to bottom, blueviolet, green);
+}
+.movie-search {
+    height: 30px;
+    width: calc(100vw - 600px);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items:center;  
+}
+.rating-dropdown {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+}

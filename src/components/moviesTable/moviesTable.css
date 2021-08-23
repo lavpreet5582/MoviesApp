@@ -1,0 +1,16 @@
+.movies-table {
+    width: calc(100vw - 300px);
+    /* border: 1px solid red; */
+    box-shadow: 0 0 3px 1px lightgrey;
+    height: calc(100vh - 250px);
+}
+.search-bar {
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+.input {
+    width: 60%;
+}

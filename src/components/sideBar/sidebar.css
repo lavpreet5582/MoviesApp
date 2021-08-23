@@ -1,0 +1,8 @@
+.sidebar {
+    width: 200px;
+    height: calc(100vh - 50px);
+    box-shadow: 0 0 3px 1px lightgrey;
+    /* border: 1px solid; */
+    /* overflow: hidden; */
+    background:  linear-gradient(#2658b6, #6e1a9e);
+}

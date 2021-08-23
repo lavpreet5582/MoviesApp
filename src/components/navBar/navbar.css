@@ -1,0 +1,12 @@
+.nav-bar{
+    width: 100vw;
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    /* border-bottom: 1px solid lightgrey; */
+    background-color: blueviolet;
+}
+.logo {
+    height: 40px;
+    width: 50px;
+}

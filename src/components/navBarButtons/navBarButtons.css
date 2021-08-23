@@ -1,0 +1,16 @@
+.nav-bar-buttons {
+    /* width: 100px; */
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightgreen; */
+    display: inline-flex;
+    
+}
+.nav-bar-buttons:hover {
+    background-color: rgb(240,240,200);
+    cursor: pointer;
+}
