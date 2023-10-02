@@ -56,11 +56,10 @@ class MoviesList extends React.Component {
       return true;
     });
     filteredData = filteredData.filter((movie) => {
-      if (this.state.search && movie.name) {
-        let movieName = movie.name.toLowerCase();
-        let search = this.state.search.toLowerCase();
-        return movieName.includes(search);
-      }
+      // if (this.state.search && movie.name) {
+      let movieName = movie.title.toLowerCase();
+      let search = this.state.search.toLowerCase();
+      return movieName.includes(search);
     });
 
     let finalData = [];

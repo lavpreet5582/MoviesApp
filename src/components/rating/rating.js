@@ -16,7 +16,7 @@ class Rating extends React.Component {
 
         ]
         for(let i = 0;i < this.props.rating;i++){
-            ratingStars[i] = <img src = "https://img.icons8.com/fluent/28/000000/star.png" alt = "rated-star"/>
+            ratingStars[i] = <img  key={Math.random()} src = "https://img.icons8.com/fluent/28/000000/star.png" alt = "rated-star"/>
         }
         return (
             <div className="Rating">

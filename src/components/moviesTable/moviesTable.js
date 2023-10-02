@@ -16,8 +16,9 @@ class MoviesTable extends React.Component {
             rating: "Rating"
         }
         let rows = [];
+        let counter = 0
         for (let i of data) {
-            rows.push(<MoviesTableRow key={i.sno} data={i}></MoviesTableRow>);
+            rows.push(<MoviesTableRow key={counter} data={i} counter = {++counter} ></MoviesTableRow>);
         }
         return (
             <div className="movies-table">
